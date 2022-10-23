@@ -19,8 +19,9 @@ local function mkfolder(name, dir)
     end
 end
 
-mkfolder("FE-Taunts-Assets", false)
-mkfile("party.mp3", game:HttpGet("https://github.com/nebunet/fe-taunts-assets/blob/main/we_like_to_party.mp3?raw=true"), "FE-Taunts-Assets")
+mkfolder("FE Taunts Music", false)
+mkfile("party.mp3", game:HttpGet("https://github.com/nebunet/fe-taunts-assets/blob/main/we_like_to_party.mp3?raw=true"), "FE Taunts Music")
+mkfile("spin.mp3", game:HttpGet("https://github.com/nebunet/fe-taunts-assets/blob/main/spin.mp3?raw=true"), "FE Taunts Music")
 
 else
     print("It seems like you aren't using synapse. Music will not be heard for this script...")
