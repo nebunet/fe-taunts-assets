@@ -22,7 +22,8 @@ end
 mkfolder("FE Taunts Music", false)
 mkfile("party.mp3", game:HttpGet("https://github.com/nebunet/fe-taunts-assets/blob/main/we_like_to_party.mp3?raw=true"), "FE Taunts Music")
 mkfile("spin.mp3", game:HttpGet("https://github.com/nebunet/fe-taunts-assets/blob/main/spin.mp3?raw=true"), "FE Taunts Music")
+mkfile("ascend.mp3", game:HttpGet("https://github.com/nebunet/fe-taunts-assets/blob/main/ascend.mp3?raw=true"), "FE Taunts Music")
 
 else
-    print("It seems like you aren't using synapse. Music will not be heard for this script...")
+    warn("It seems like you aren't using synapse. Music will not be heard for this script...")
 end
